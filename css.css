@@ -1,0 +1,85 @@
+body{
+	height: 100vw;
+	width: 100vw;
+	margin:0px;
+	background: chartreuse;
+	cursor:none;
+}
+div{
+	margin:0px;
+	position: absolute;
+}
+
+.timer{
+	z-index: 10000;
+	background: blueviolet;
+	height: 50px;
+	width: 100%;
+}
+.placar{
+	z-index: 10001;
+	color: yellow;
+	height: 50px;
+	width: 50%;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.placarD{
+	z-index: 10002;
+	color: red;
+	height: 50px;
+	width: 50%;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 11px;
+    font-weight: bold;
+    text-align: center;
+    right: 0px;
+    position: absolute;
+}
+.mouse{
+	background: red;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+.seg{
+	font-size: 100px;
+}
+.timerNumber{
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 11px;
+    color: chartreuse;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bl1 , .bl2{
+	height: 50px;
+	background: blueviolet;
+
+}
+.bl1{
+left: 0px;
+}
+
+.bl2{
+right: 0px;	
+}
+
+.bl1:hover,.bl2:hover{
+	background: red;
+} 
+.linha, .Lpoint{
+	position: relative;
+}
+.point{
+	height: 30px;
+	width: 30px;
+	background: yellow;
+	border: solid 5px chartreuse;
+}
